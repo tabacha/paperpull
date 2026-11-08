@@ -61,6 +61,7 @@ config.json.*
 **/Orders/
 **/In-Store/
 **/Online/
+**/Rechnungen/
 **/App Store/
 **/Apple Store/
 **/Rides/

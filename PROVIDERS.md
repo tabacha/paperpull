@@ -10,7 +10,7 @@ telecoms, payroll systems, and retailers real people actually use.
   [provider request](https://github.com/rheeloaded/paperpull/issues/new/choose)
   so someone with that account can pick it up.
 
-## Supported (75, plus six built and waiting for a tester)
+## Supported (76, plus six built and waiting for a tester)
 
 | App | Provider | Documents | Category |
 |-----|----------|-----------|----------|
@@ -38,6 +38,7 @@ telecoms, payroll systems, and retailers real people actually use.
 | [`discovercard`](apps/discovercard) | Discover (credit cards) | Card statements. A card that has moved to Capital One is read there by the Capital One app (#13) | Card |
 | [`dominion`](apps/dominion) | Dominion Energy (VA) | Billing statements | Utility |
 | [`ebay`](apps/ebay) | eBay | Order receipts, the order-details page rendered to PDF, ten years of purchase history, nothing clicked. Confirmed by @jpfieber on issue #44, every order back to 2017 | Retail |
+| [`ebayde`](apps/ebayde) | eBay Germany (ebay.de) | Order receipts, the order-details page rendered to PDF with each order of a multi-seller cart on its own receipt, and the invoices eBay issues itself ("Rechnung ansehen"), nine years of purchase history, nothing clicked. eBay asks for a fresh sign-in before it shows an invoice, which the run stops for and Resume carries on after. Built and run on a contributor's own account, 73 orders back to 2017 and all 73 receipts saved, with 5 invoices | Retail |
 | [`etrade`](apps/etrade) | E*TRADE | Statements, trade confirmations, tax forms. Confirmed by @watling777, whose Pilot and full run saved every statement (#36). No tax form seen yet, his account has none | Brokerage |
 | [`ezpassva`](apps/ezpassva) | E-ZPass Virginia | Monthly and quarterly statements, the roughly one year of each the portal keeps online, so run it at least once a year. Built on the maintainer's own account | Tolls |
 | [`fairfaxwater`](apps/fairfaxwater) | Fairfax Water (VA) | Water bills, the last year's, from the FW Customer portal | Utility |
